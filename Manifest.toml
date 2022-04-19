@@ -186,6 +186,18 @@ version = "0.8.6"
 deps = ["ArgTools", "LibCURL", "NetworkOptions"]
 uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 
+[[deps.ECOS]]
+deps = ["BinaryProvider", "ECOS_jll", "Libdl", "LinearAlgebra", "MathOptInterface", "MathProgBase", "SparseArrays"]
+git-tree-sha1 = "a7117f6f44a846b4cb4ae1b06d03807312e464b2"
+uuid = "e2685f51-7e38-5353-a97d-a921fd2c8199"
+version = "0.12.3"
+
+[[deps.ECOS_jll]]
+deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
+git-tree-sha1 = "c11ea452ae3fb7e69dadb6a3be6ec8d9403997fe"
+uuid = "c2c64177-6a8e-5dca-99a7-64895ad7445f"
+version = "2.0.5+1"
+
 [[deps.EarCut_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
 git-tree-sha1 = "3f3a2501fa7236e9b911e0f7a588c657e822bb6d"
